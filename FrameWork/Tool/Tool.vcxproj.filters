@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{27a889a3-a4c0-4fb1-aa16-1257b68e5e1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainFrm">
+      <UniqueIdentifier>{099f1dd8-0aae-4988-b6c5-63afecbc58f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Document">
+      <UniqueIdentifier>{b0ffc060-c06a-4d6d-b5ca-29b986b6c175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.View">
+      <UniqueIdentifier>{0004e25c-3db1-40cd-b0d8-8db8527619ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.View\00.Form">
+      <UniqueIdentifier>{d1c4d8a6-bffb-4d25-b922-d6ec6da892a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.View\00.Form\00.PrototypeTool">
+      <UniqueIdentifier>{89cf0ff3-29fb-4c4f-9fa2-e2b2b1535f2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.View\00.Form\01.NavMeshTool">
+      <UniqueIdentifier>{4d6a72d4-1a5f-46ba-9249-832ae4ab9eb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.FilePath">
+      <UniqueIdentifier>{c7a184f0-3ae2-40c2-9618-158fd92c0fbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.GameObject">
+      <UniqueIdentifier>{2cd1f337-f9ff-44e8-9166-1f29ba57869b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.GameObject\01.RectObj">
+      <UniqueIdentifier>{97055da6-0f54-4d99-a527-28fd51401ade}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.GameObject\02.CubeObj">
+      <UniqueIdentifier>{63068edf-a047-4607-9408-c29d6acccbf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.GameObject\00.ToolObj">
+      <UniqueIdentifier>{dddf1906-f6e0-4430-8b16-9d6bf6e7cd6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.View\00.Form\02.TerrainTool">
+      <UniqueIdentifier>{b5a91c38-12f0-416b-920e-1f4d058d72c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.GameObject\03.TerrainObj">
+      <UniqueIdentifier>{101564bb-63e3-41a2-9d44-f30576361b07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.GameObject\04.ToolViewCamera">
+      <UniqueIdentifier>{53510e08-8a4f-42cb-b106-5edaee0776c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.GameObject\01.RectObj\00. XZ">
+      <UniqueIdentifier>{4ddb0a3a-06e5-4e31-a43c-822b72ad9a48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.GameObject\01.RectObj\01. YZ">
+      <UniqueIdentifier>{566b7694-33f7-49f1-9681-c4bb4dcedd06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.View\00.Form\03. RectYZTool">
+      <UniqueIdentifier>{65462f10-529c-4e69-b45a-29f85b7fd2cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.View\00.Form\03.UITool">
+      <UniqueIdentifier>{ed72f02d-6c84-4b12-bbc4-2570524fc676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.GameObject\05.UIObj">
+      <UniqueIdentifier>{f747e12c-5049-4d62-b06a-d51414145882}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.GameObject\06.BaseLine">
+      <UniqueIdentifier>{825b9e3c-7610-4c74-a3fd-d4ee79121ed3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.GameObject\01.RectObj\02. XY">
+      <UniqueIdentifier>{4c7cbdc7-c2de-4054-903e-a3b507a2a82a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.View\00.Form\04.LotObjectTool">
+      <UniqueIdentifier>{3125da01-227f-41bc-bbec-b734d9f96cd8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainFrm.h">
+      <Filter>00.MainFrm</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolDoc.h">
+      <Filter>01.Document</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolView.h">
+      <Filter>02.View</Filter>
+    </ClInclude>
+    <ClInclude Include="Form.h">
+      <Filter>02.View\00.Form</Filter>
+    </ClInclude>
+    <ClInclude Include="PrototypeTool.h">
+      <Filter>02.View\00.Form\00.PrototypeTool</Filter>
+    </ClInclude>
+    <ClInclude Include="NavMeshTool.h">
+      <Filter>02.View\00.Form\01.NavMeshTool</Filter>
+    </ClInclude>
+    <ClInclude Include="FilePath.h">
+      <Filter>03.FilePath</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeObj.h">
+      <Filter>04.GameObject\02.CubeObj</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolObj.h">
+      <Filter>04.GameObject\00.ToolObj</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolTerrainObj.h">
+      <Filter>04.GameObject\03.TerrainObj</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolViewCamera.h">
+      <Filter>04.GameObject\04.ToolViewCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="RectObj.h">
+      <Filter>04.GameObject\01.RectObj\00. XZ</Filter>
+    </ClInclude>
+    <ClInclude Include="RectYZObj.h">
+      <Filter>04.GameObject\01.RectObj\01. YZ</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainTool.h">
+      <Filter>02.View\00.Form\02.TerrainTool</Filter>
+    </ClInclude>
+    <ClInclude Include="UITool.h">
+      <Filter>02.View\00.Form\03.UITool</Filter>
+    </ClInclude>
+    <ClInclude Include="UIObj.h">
+      <Filter>04.GameObject\05.UIObj</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseLine.h">
+      <Filter>04.GameObject\06.BaseLine</Filter>
+    </ClInclude>
+    <ClInclude Include="RectYZTool.h">
+      <Filter>02.View\00.Form\03. RectYZTool</Filter>
+    </ClInclude>
+    <ClInclude Include="RectXYObj.h">
+      <Filter>04.GameObject\01.RectObj\02. XY</Filter>
+    </ClInclude>
+    <ClInclude Include="LotObjectTool.h">
+      <Filter>02.View\00.Form\04.LotObjectTool</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>00.MainFrm</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolDoc.cpp">
+      <Filter>01.Document</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolView.cpp">
+      <Filter>02.View</Filter>
+    </ClCompile>
+    <ClCompile Include="Form.cpp">
+      <Filter>02.View\00.Form</Filter>
+    </ClCompile>
+    <ClCompile Include="PrototypeTool.cpp">
+      <Filter>02.View\00.Form\00.PrototypeTool</Filter>
+    </ClCompile>
+    <ClCompile Include="NavMeshTool.cpp">
+      <Filter>02.View\00.Form\01.NavMeshTool</Filter>
+    </ClCompile>
+    <ClCompile Include="FilePath.cpp">
+      <Filter>03.FilePath</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeObj.cpp">
+      <Filter>04.GameObject\02.CubeObj</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolObj.cpp">
+      <Filter>04.GameObject\00.ToolObj</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainTool.cpp">
+      <Filter>02.View\00.Form\02.TerrainTool</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolTerrainObj.cpp">
+      <Filter>04.GameObject\03.TerrainObj</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolViewCamera.cpp">
+      <Filter>04.GameObject\04.ToolViewCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="RectObj.cpp">
+      <Filter>04.GameObject\01.RectObj\00. XZ</Filter>
+    </ClCompile>
+    <ClCompile Include="RectYZObj.cpp">
+      <Filter>04.GameObject\01.RectObj\01. YZ</Filter>
+    </ClCompile>
+    <ClCompile Include="RectYZTool.cpp">
+      <Filter>02.View\00.Form\03. RectYZTool</Filter>
+    </ClCompile>
+    <ClCompile Include="UITool.cpp">
+      <Filter>02.View\00.Form\03.UITool</Filter>
+    </ClCompile>
+    <ClCompile Include="UIObj.cpp">
+      <Filter>04.GameObject\05.UIObj</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseLine.cpp">
+      <Filter>04.GameObject\06.BaseLine</Filter>
+    </ClCompile>
+    <ClCompile Include="RectXYObj.cpp">
+      <Filter>04.GameObject\01.RectObj\02. XY</Filter>
+    </ClCompile>
+    <ClCompile Include="LotObjectTool.cpp">
+      <Filter>02.View\00.Form\04.LotObjectTool</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Tool.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\ToolDoc.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tool.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Tool.rc2">
+      <Filter>99.Default</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

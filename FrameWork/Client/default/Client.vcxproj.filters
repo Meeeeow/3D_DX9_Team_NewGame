@@ -1,0 +1,1292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Defines">
+      <UniqueIdentifier>{70f63371-a5f8-49cc-a6d7-a6cf62e28588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Defaults">
+      <UniqueIdentifier>{54177cbe-4d86-4d90-a3ea-85d235152867}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{ba336561-8c18-49de-8ded-1fbd81ee8a7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level">
+      <UniqueIdentifier>{e08248c5-e19d-4440-be99-06c8699fe362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\00.Logo">
+      <UniqueIdentifier>{100c5a3f-fe02-456b-a28c-d21daddc4bf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\01.Loading">
+      <UniqueIdentifier>{e54f057d-b513-41e9-a0d8-f88f529b3645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02.GamePlay">
+      <UniqueIdentifier>{0abd893c-994a-453c-97f6-ff247822d8bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject">
+      <UniqueIdentifier>{231299ae-0d31-47c9-88af-c154e307ea26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.BackGround">
+      <UniqueIdentifier>{712bab28-293e-4907-9c43-761c78a4b2d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\01.Loading\00.Loader">
+      <UniqueIdentifier>{c8216181-70f7-4b85-aff7-7fa6d8101efb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Terrain">
+      <UniqueIdentifier>{7bacd74d-c5ec-4637-8ea8-866dbe1cd336}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Player">
+      <UniqueIdentifier>{09d1b573-fb95-44b6-80a3-156230c13caf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.SkyBox">
+      <UniqueIdentifier>{dee5f32d-ce01-48d5-b8c3-9b0f3b9ca77b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Camera">
+      <UniqueIdentifier>{822fa80a-2718-44c3-a290-21623fb628c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Camera\02.CameraFree">
+      <UniqueIdentifier>{579147c3-a4ab-400c-afb1-7938fd50010b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Camera\00.CameraTargetBack">
+      <UniqueIdentifier>{5c0adaaf-1591-407e-a20b-83f8a89dc5ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Monster">
+      <UniqueIdentifier>{07e5c4f8-73ec-4056-9413-f4689bf6486d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Monster\00.NormalMelee">
+      <UniqueIdentifier>{6714a24f-f72a-4e2e-bb75-5bf09f88bd1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.Observers">
+      <UniqueIdentifier>{cb0fecc0-37b6-4130-9bdb-54fd61dcf3f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.Observers\00.HpBar">
+      <UniqueIdentifier>{e9bcbe23-ae3d-4e92-b300-ca44825b3643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.LoadingDatFile">
+      <UniqueIdentifier>{53a4dede-d210-4906-a2e0-d4d17992db0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\03.Test">
+      <UniqueIdentifier>{117cb128-1c8c-4f4f-ac5e-068a192f3b73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Cube">
+      <UniqueIdentifier>{22446eed-7d1f-4138-8edb-e885241f6aca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Monster\01.NormalRange">
+      <UniqueIdentifier>{0a9525ff-9642-4587-9160-0c669df5d92a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Monster\02.BossSkeleton">
+      <UniqueIdentifier>{eec094b1-05d5-4e08-9f57-e925702943e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.Observers\01.MpBar">
+      <UniqueIdentifier>{b2fb491f-62ff-4374-b01e-5806f167a748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.Observers\02.PlayerInfo">
+      <UniqueIdentifier>{692929b4-4b71-4cad-b18a-a6bf3d31e8f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.Observers\03.SkillIcon">
+      <UniqueIdentifier>{2a756309-9f1f-41b1-9e31-75dd454f3a7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Camera\03. Camera2D">
+      <UniqueIdentifier>{9fbca030-1a72-4ca9-ab66-b8a0598ea853}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\09.Attack">
+      <UniqueIdentifier>{4e57a70d-0fa5-43d5-8776-afbbb343174e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Cube\00.CollisionCube">
+      <UniqueIdentifier>{b13385f3-96b0-4bf7-97d6-5bc015d83213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Cube\00.CollisionCube\01. DestoryableCube">
+      <UniqueIdentifier>{9cad5db4-7dac-4170-b792-0914cc980913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Cube\00.CollisionCube\00. MagicMissile">
+      <UniqueIdentifier>{7a636f50-5245-446f-aec7-d86037062c1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Cube\01. TileCube">
+      <UniqueIdentifier>{ba12e42f-0237-40ff-af35-9022e35be594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Cube\01. TileCube\00. Abstract">
+      <UniqueIdentifier>{4ee2a393-7b47-4eee-9875-88391c4abae5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Cube\01. TileCube\01. ClayCube">
+      <UniqueIdentifier>{fe834da2-170e-4dd4-a45b-6abcb50b2120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Monster\10.MeleeSkull">
+      <UniqueIdentifier>{d1b71711-ee1c-453f-88dc-85296d3d36a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Monster\12.Necromencer">
+      <UniqueIdentifier>{2e8747c0-3651-42f2-8682-73a402f2e975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Monster\13.Chimera">
+      <UniqueIdentifier>{72425d87-87b1-4892-a3d3-6db1924e3c42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Monster\10.MeleeSkull">
+      <UniqueIdentifier>{d1b71711-ee1c-453f-88dc-85296d3d36a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Monster\12.Necromencer">
+      <UniqueIdentifier>{2e8747c0-3651-42f2-8682-73a402f2e975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Monster\13.Chimera">
+      <UniqueIdentifier>{72425d87-87b1-4892-a3d3-6db1924e3c42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\10.Environment">
+      <UniqueIdentifier>{4c4ede1d-f646-4d8d-9f9b-74580fb79258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\10.Environment\00.Rain">
+      <UniqueIdentifier>{fcdf0414-35b6-4632-a499-be4fb7068c81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\10.Environment\00.Rain\00.RainDrop">
+      <UniqueIdentifier>{b6a7c0f6-b173-4ab4-aa9f-3e64113a57ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\10.Environment\Mgr">
+      <UniqueIdentifier>{2566ed11-0da6-4ebd-8ff0-34ddeb8fc717}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Monster\03.BossClown">
+      <UniqueIdentifier>{bba37207-9101-4f9c-b42d-78bdcfaeb361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Monster\11.RangeSkull">
+      <UniqueIdentifier>{9c95de95-3e2f-4c4f-aacc-9cb4f44064e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.PlayerTagMgr">
+      <UniqueIdentifier>{4398ad23-186f-48b1-963c-90a7db21f9f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Cube\01. TileCube\02. RedBlock">
+      <UniqueIdentifier>{5c949c14-0e2a-4a13-9009-843dd1b966c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\04.BossSkeleton">
+      <UniqueIdentifier>{5b7713ea-8af7-4d39-be6f-a40a998163ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.Wall">
+      <UniqueIdentifier>{ad28740d-6fb4-401b-bc9e-40da7d559452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.Wall\00. WallBase">
+      <UniqueIdentifier>{50968b1c-1cdb-4ac6-be6b-eb2c4478b21f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.Wall\02. Side">
+      <UniqueIdentifier>{e8562eab-d6bd-4c52-8267-9a620f088808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.Wall\01. Look">
+      <UniqueIdentifier>{6ab019db-f043-466f-82fa-d74390957140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\12.RectObject">
+      <UniqueIdentifier>{83734e27-a75c-46d0-b0bf-795dcd9f00d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\13.Thorn">
+      <UniqueIdentifier>{e755a525-c296-4946-8c7e-75b0790635b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\13.Thorn\00.BossSkeletonThorn">
+      <UniqueIdentifier>{9f46bc78-5ece-4b25-a592-5673c5436f4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Cube\01. TileCube\02.ShieldCube">
+      <UniqueIdentifier>{119965e9-25f5-4233-8da3-ced8fea83bdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Monster\12.Necromencer\00.NecromencerFire">
+      <UniqueIdentifier>{55d36bac-eb9a-4bcd-ada7-853445463a1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Cube\01. TileCube\03. BlueBlock">
+      <UniqueIdentifier>{4256dfea-d492-4ff8-856f-783b46b74bc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Cube\01. TileCube\04. GrayBlock">
+      <UniqueIdentifier>{1c3eda94-fd54-4566-abe5-6aab4082cb84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\05.Circus">
+      <UniqueIdentifier>{40397773-4ebd-47e8-846a-84bf9eec54f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Monster\12.Necromencer\01.NecromencerIce">
+      <UniqueIdentifier>{d691cd13-14ca-4242-874f-e48de3ee7731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Monster\12.Necromencer\02.NecromencerElectric">
+      <UniqueIdentifier>{00d4f956-27ba-4776-8054-91ba57950b54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Monster\12.Necromencer\01.NecromencerIce\00.IceOrb">
+      <UniqueIdentifier>{aac31165-53d3-4efb-bc78-362c6c7e41c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Monster\12.Necromencer\02.NecromencerElectric\00.Cloud">
+      <UniqueIdentifier>{052dca87-8137-4298-8b3c-c2aebb3f12ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Monster\12.Necromencer\Manager">
+      <UniqueIdentifier>{f34a56c3-12ed-4f9f-9cca-064e3070208d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Monster\14.TombStone">
+      <UniqueIdentifier>{40e8eb5e-ba5f-4a84-9570-031b994a5855}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Cube\01. TileCube\05. BrokenBlock">
+      <UniqueIdentifier>{f11177c5-4104-40d9-be4e-3bfed7eec88a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. FMOD">
+      <UniqueIdentifier>{d6f22ca1-a2e6-4761-8904-9e4e7a137235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Monster\14.TombStone">
+      <UniqueIdentifier>{40e8eb5e-ba5f-4a84-9570-031b994a5855}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\12.RectObject\00.CollisionRect">
+      <UniqueIdentifier>{10a306d9-f468-4a99-9d81-9ecc08899e01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\12.RectObject\00.CollisionRect\00.Dagger">
+      <UniqueIdentifier>{1de7a7c3-ebb8-4582-9e6a-9cbeeaf143a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\14. Portal">
+      <UniqueIdentifier>{11077c7a-4db5-422e-817b-756acd45c4a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Monster\14.TombStone\Manager">
+      <UniqueIdentifier>{9479fe4f-de85-49f6-a446-8c285130b407}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\06.BossNecromencer">
+      <UniqueIdentifier>{bfc01c92-a532-468c-a712-38cfde60ef06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.Effect">
+      <UniqueIdentifier>{b3bac957-1cda-46dd-9dd1-242de099cbd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.Effect\00.Explosion">
+      <UniqueIdentifier>{74a00c3d-c974-4167-9b7a-bb8e3a148dba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.Effect\02.DmgFont">
+      <UniqueIdentifier>{4dd4e274-1c8e-43b5-8572-0897d5dc18ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.Effect\01.BossSkeletonMagicCircle">
+      <UniqueIdentifier>{408210c3-2b65-424a-8263-820d4ef675cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.Effect\01.BossSkeletonMagicCircle\00.In">
+      <UniqueIdentifier>{5f9e3509-d863-4e1c-8d89-e34bb300c091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.Effect\03.NecromencerSpell">
+      <UniqueIdentifier>{a33d5a34-65a8-43da-ace4-bd93eb391e52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.Effect\03.NecromencerSpell\00.Shield">
+      <UniqueIdentifier>{3954529c-f21a-4149-8ed2-3af3d652694d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.Effect\03.NecromencerSpell\01.Resurrection">
+      <UniqueIdentifier>{d1648c19-ac29-49c2-b60f-fa63126b6939}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.Effect\03.NecromencerSpell\02.BalckHole">
+      <UniqueIdentifier>{078c0191-a778-4c26-aec4-8d8596371d76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.Effect\04.TrumpCard">
+      <UniqueIdentifier>{fa501604-c035-4791-833c-1c9c3f4b5c13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.Effect\04.TrumpCard\00. Deck">
+      <UniqueIdentifier>{4672ec8a-6b24-4dcd-b974-2d6272b0e3aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.Effect\04.TrumpCard\01. Clover">
+      <UniqueIdentifier>{be56d08f-31c3-4981-afbe-491f11c139e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.Effect\04.TrumpCard\02. Spade">
+      <UniqueIdentifier>{746dcd22-8796-4e69-a64f-1f49ac94acb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.Effect\04.TrumpCard\03. Heart">
+      <UniqueIdentifier>{4ca891a3-daee-4cf6-8c70-b61c4b9b2038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. FMOD">
+      <UniqueIdentifier>{d6f22ca1-a2e6-4761-8904-9e4e7a137235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.Effect\05. Blind">
+      <UniqueIdentifier>{bb9c36e2-7d85-46d4-ab51-7db33972bb58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\12.RectObject\00.CollisionRect">
+      <UniqueIdentifier>{10a306d9-f468-4a99-9d81-9ecc08899e01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\12.RectObject\00.CollisionRect\00.Dagger">
+      <UniqueIdentifier>{1de7a7c3-ebb8-4582-9e6a-9cbeeaf143a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\14. Portal">
+      <UniqueIdentifier>{11077c7a-4db5-422e-817b-756acd45c4a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.Effect\05.TagGuage">
+      <UniqueIdentifier>{073c2d22-366e-4ecb-a60f-9b16a7135bbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.Effect\05.TagGuage\Observer">
+      <UniqueIdentifier>{339b8cba-b253-4fef-9355-07893e9ae139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.Effect\06.NonControl">
+      <UniqueIdentifier>{1b6a226c-d449-455f-b050-34952c9701be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.Effect\06.NonControl\Observer">
+      <UniqueIdentifier>{bfa72b7b-d495-49cf-8026-9a3279ac0eb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Cube\01. TileCube\06.BossSkeletonStageCUbe">
+      <UniqueIdentifier>{fd7c0f72-dda0-42c4-8ad5-4afcd5001bff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Cube\01. TileCube\06.BossSkeletonStageCUbe\Observer">
+      <UniqueIdentifier>{ccbd661c-46a8-4e6c-a27f-ef2b7efb25ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Cube\01. TileCube\06.BossSkeletonStageCUbe\00.BossSkeletonStageCubeAttack">
+      <UniqueIdentifier>{d2d1e4e3-7183-4444-bbbd-f0b131d2158f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.Effect\07.BossSkeletonStageCircle">
+      <UniqueIdentifier>{4093689b-4314-4cd6-b593-4b5ccefa67d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.Effect\07.BossSkeletonStageCircle\Attack">
+      <UniqueIdentifier>{89b4b4cf-6549-4f14-af89-aaf103eab730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Monster\12.Necromencer\Manager\MonsterColliderManager">
+      <UniqueIdentifier>{51e2b655-074c-4979-a001-8ece5068f5b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Monster\12.Necromencer\Manager\ResurrectionManager">
+      <UniqueIdentifier>{0833e07b-1e45-4536-9571-2b1370914676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\15. LockOn">
+      <UniqueIdentifier>{104e38cc-5069-48a6-bd25-e6b3d5525fc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Cube\02. Meteor">
+      <UniqueIdentifier>{5a937971-6139-49e8-9482-2ce511c9bd23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Cube\03.PoisonCube">
+      <UniqueIdentifier>{e2a7d8a1-839d-4410-8526-24d257dfa770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Cube\03.PoisonCube\Particle">
+      <UniqueIdentifier>{047098c4-a2bd-4e06-8b91-819e5935ab60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Cube\03.PoisonCube\Attack">
+      <UniqueIdentifier>{8dc4001e-4b72-4049-bd28-a741f1151d5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Cube\03.PoisonCube\Hit">
+      <UniqueIdentifier>{6e71c647-f8cf-433f-8f6c-de335d271aea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.Effect\03.NecromencerSpell\03.Blink">
+      <UniqueIdentifier>{8db03877-8fcb-4618-81de-0116206b3b88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.Effect\04.TrumpCard\04.Diamond">
+      <UniqueIdentifier>{d18aac91-75b2-4e79-9925-9d9f0db93188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. TelekinesisManager">
+      <UniqueIdentifier>{55968ba0-775d-4b96-9f1b-5b020804d4a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Monster\13.Chimera\00.DarkOrb">
+      <UniqueIdentifier>{a1abde62-ce21-49cd-9b3f-2a936e72b56a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Cube\04.PlayerShield">
+      <UniqueIdentifier>{1f2ebd7a-bfbb-48da-b755-e4e7aaaf13a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\16.Item">
+      <UniqueIdentifier>{641e88ba-17e9-401a-9ffa-19587b76784c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\17.OrthoObj">
+      <UniqueIdentifier>{60a02f4f-8f19-4097-90b6-a690911b4964}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\17.OrthoObj\00.BloodScreen">
+      <UniqueIdentifier>{8c457aff-326c-4ede-969f-31ed39007ed0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\11.Crosshair">
+      <UniqueIdentifier>{7272dc10-5fb3-40a0-9a7b-249215231046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\11.Crosshair\Mgr">
+      <UniqueIdentifier>{258cb3e8-4354-4d36-860f-45db06554c74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Cube\00.CollisionCube\00. MagicMissile\Particle">
+      <UniqueIdentifier>{33757cf8-5e4b-4dc6-9bcc-80e94cf4e8f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Cube\01. TileCube\06.BossSkeletonStageCUbe\RunWet">
+      <UniqueIdentifier>{048ba5c6-8e8f-4bb6-805b-45260e92fccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Cube\01. TileCube\06.BossSkeletonStageCUbe\RunWet\Particle">
+      <UniqueIdentifier>{4de289ca-6977-41a7-885f-41c57f1d7e1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Cube\01. TileCube\07. TempleCube">
+      <UniqueIdentifier>{9b183bd8-95f6-4277-94e8-6eac9d41ed10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Cube\01. TileCube\07. TempleCube\00. UnDestroyable">
+      <UniqueIdentifier>{d21235be-7b9b-4acb-ba0c-2350d81cc7f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Cube\01. TileCube\07. TempleCube\01. Destroyable">
+      <UniqueIdentifier>{1ea38ba4-77ca-4207-9521-18cf619f6001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Monster\03.BossClown\00. FireCracker">
+      <UniqueIdentifier>{28bdacb9-44c3-4297-8a22-4bc553744ba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Monster\03.BossClown\01. Confetti">
+      <UniqueIdentifier>{97e7679b-2e5f-4e09-a1ea-52c3fd8ca3d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\18.Dialog">
+      <UniqueIdentifier>{316f1970-4a07-4700-b78f-26f2b81f3b0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\18.Dialog\Mgr">
+      <UniqueIdentifier>{39f95782-dc4d-46b3-9993-9533e60bab2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\19.TriggerCollider">
+      <UniqueIdentifier>{3e3b8d38-0a82-4bcb-a306-fba731ad379f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\20.WaterCannon">
+      <UniqueIdentifier>{ae7f7f84-75bc-48db-9302-bc8b01315b1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.Effect\08.BlackScreen">
+      <UniqueIdentifier>{0c3f0dd3-2b88-4cab-984c-323538dcff91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.TutorialMgr">
+      <UniqueIdentifier>{4a0b8da7-d67c-4760-a03c-c3a31c5843a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Monster\03.BossClown\03. CardSelect">
+      <UniqueIdentifier>{2e66ef2e-29d9-400a-8804-88a7dfbbbcde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Monster\03.BossClown\02. CardBoard">
+      <UniqueIdentifier>{2caed0b9-5d24-41dc-a530-96366a777494}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Monster\14.TombStone\CrossBlock">
+      <UniqueIdentifier>{c9c8b2c7-d733-4bba-9016-4f00a2f4ed0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Monster\14.TombStone\BaseBlock">
+      <UniqueIdentifier>{54f18804-318b-48ac-a0ba-1181a6016669}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Monster\11.RangeSkull\Arrow">
+      <UniqueIdentifier>{ac294b68-5b0d-4cf1-8bfa-fcf34f98ebec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.TipMgr">
+      <UniqueIdentifier>{1b9ac7f9-3966-424f-aa3b-43bb0677cb32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\21.TipObject">
+      <UniqueIdentifier>{c9bb9f8e-ba40-4c96-8cb7-a58dc86690a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\21.TipObject\00.Text">
+      <UniqueIdentifier>{260d7c4d-4ca4-45c3-b090-d454388388bf}</UniqueIdentifier>
+    </Filter>	  
+    <Filter Include="02.GameObject\06.Monster\03.BossClown\04. CardLost">
+      <UniqueIdentifier>{6b7cb227-05bf-40d8-8e1c-08f903a9894a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Monster\14.TombStone\Particle">
+      <UniqueIdentifier>{418d5c58-496b-41d5-b34d-853ae242b611}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>98.Defaults</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>98.Defaults</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>98.Defaults</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>98.Defaults</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MainApp.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Client_Defines.h">
+      <Filter>99.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_Logo.h">
+      <Filter>01.Level\00.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_GamePlay.h">
+      <Filter>01.Level\02.GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_Loading.h">
+      <Filter>01.Level\01.Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BackGround.h">
+      <Filter>02.GameObject\00.BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Loader.h">
+      <Filter>01.Level\01.Loading\00.Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Terrain.h">
+      <Filter>02.GameObject\01.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Client_Struct.h">
+      <Filter>99.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\CameraFree.h">
+      <Filter>02.GameObject\02.Camera\02.CameraFree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player.h">
+      <Filter>02.GameObject\03.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SkyBox.h">
+      <Filter>02.GameObject\04.SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Explosion.h">
+      <Filter>02.GameObject\05.Effect\00.Explosion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\CameraTargetBack.h">
+      <Filter>02.GameObject\02.Camera\00.CameraTargetBack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Client_Const.h">
+      <Filter>99.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Monster.h">
+      <Filter>02.GameObject\06.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MonsterNormalMelee.h">
+      <Filter>02.GameObject\06.Monster\00.NormalMelee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\HpBar.h">
+      <Filter>02.GameObject\99.Observers\00.HpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\LoadingDatFile.h">
+      <Filter>03.LoadingDatFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_Test.h">
+      <Filter>01.Level\03.Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\CubeObject.h">
+      <Filter>02.GameObject\07.Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MonsterNormalRange.h">
+      <Filter>02.GameObject\06.Monster\01.NormalRange</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MagicMissile.h">
+      <Filter>02.GameObject\07.Cube\00.CollisionCube\00. MagicMissile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DestroyableCube.h">
+      <Filter>02.GameObject\07.Cube\00.CollisionCube\01. DestoryableCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\WallLook.h">
+      <Filter>02.GameObject\08.Wall\01. Look</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DmgFont.h">
+      <Filter>02.GameObject\05.Effect\02.DmgFont</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BossSkeleton.h">
+      <Filter>02.GameObject\06.Monster\02.BossSkeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BossSkeletonMagicCircle.h">
+      <Filter>02.GameObject\05.Effect\01.BossSkeletonMagicCircle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BossSkeletonMagicCircleIn.h">
+      <Filter>02.GameObject\05.Effect\01.BossSkeletonMagicCircle\00.In</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SkillIcon.h">
+      <Filter>02.GameObject\99.Observers\03.SkillIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MpBar.h">
+      <Filter>02.GameObject\99.Observers\01.MpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\PlayerInfo.h">
+      <Filter>02.GameObject\99.Observers\02.PlayerInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\WallBase.h">
+      <Filter>02.GameObject\08.Wall\00. WallBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Camera2D.h">
+      <Filter>02.GameObject\02.Camera\03. Camera2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\WallSide.h">
+      <Filter>02.GameObject\08.Wall\02. Side</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BossClown.h">
+      <Filter>02.GameObject\06.Monster\03.BossClown</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Attack.h">
+      <Filter>02.GameObject\09.Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\CollisionCubeObject.h">
+      <Filter>02.GameObject\07.Cube\00.CollisionCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MeleeSkull.h">
+      <Filter>02.GameObject\06.Monster\10.MeleeSkull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Environment.h">
+      <Filter>02.GameObject\10.Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Rain.h">
+      <Filter>02.GameObject\10.Environment\00.Rain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\RainDrop.h">
+      <Filter>02.GameObject\10.Environment\00.Rain\00.RainDrop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\EnvironmentMgr.h">
+      <Filter>02.GameObject\10.Environment\Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\RangeSkull.h">
+      <Filter>02.GameObject\06.Monster\11.RangeSkull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TileCube.h">
+      <Filter>02.GameObject\07.Cube\01. TileCube\00. Abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ClayCube.h">
+      <Filter>02.GameObject\07.Cube\01. TileCube\01. ClayCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Crosshair.h">
+      <Filter>02.GameObject\11.Crosshair</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\CrosshairMgr.h">
+      <Filter>02.GameObject\11.Crosshair\Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BossSkeletonStageCube.h">
+      <Filter>02.GameObject\07.Cube\01. TileCube\06.BossSkeletonStageCUbe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BossSkeletonStageCubeObserver.h">
+      <Filter>02.GameObject\07.Cube\01. TileCube\06.BossSkeletonStageCUbe\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\PlayerTagMgr.h">
+      <Filter>04.PlayerTagMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Necromencer.h">
+      <Filter>02.GameObject\06.Monster\12.Necromencer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TrumpCard.h">
+      <Filter>02.GameObject\05.Effect\04.TrumpCard\00. Deck</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TrumpCardClover.h">
+      <Filter>02.GameObject\05.Effect\04.TrumpCard\01. Clover</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\RedBlock.h">
+      <Filter>02.GameObject\07.Cube\01. TileCube\02. RedBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_BossSkeleton.h">
+      <Filter>01.Level\04.BossSkeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BossSkeletonStageCubeAttack.h">
+      <Filter>02.GameObject\07.Cube\01. TileCube\06.BossSkeletonStageCUbe\00.BossSkeletonStageCubeAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\RectObject.h">
+      <Filter>02.GameObject\12.RectObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ThornObject.h">
+      <Filter>02.GameObject\13.Thorn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BossSkeletonThorn.h">
+      <Filter>02.GameObject\13.Thorn\00.BossSkeletonThorn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Shield.h">
+      <Filter>02.GameObject\05.Effect\03.NecromencerSpell\00.Shield</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Resurrection.h">
+      <Filter>02.GameObject\05.Effect\03.NecromencerSpell\01.Resurrection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ShieldCube.h">
+      <Filter>02.GameObject\07.Cube\01. TileCube\02.ShieldCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\NecromencerFire.h">
+      <Filter>02.GameObject\06.Monster\12.Necromencer\00.NecromencerFire</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BlueBlock.h">
+      <Filter>02.GameObject\07.Cube\01. TileCube\03. BlueBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\GrayBlock.h">
+      <Filter>02.GameObject\07.Cube\01. TileCube\04. GrayBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\NecromencerIce.h">
+      <Filter>02.GameObject\06.Monster\12.Necromencer\01.NecromencerIce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\IceOrb.h">
+      <Filter>02.GameObject\06.Monster\12.Necromencer\01.NecromencerIce\00.IceOrb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\LevelCircus.h">
+      <Filter>01.Level\05.Circus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Cloud.h">
+      <Filter>02.GameObject\06.Monster\12.Necromencer\02.NecromencerElectric\00.Cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Shield.h">
+      <Filter>02.GameObject\05.Effect\03.NecromencerSpell\00.Shield</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\NecromencerElectric.h">
+      <Filter>02.GameObject\06.Monster\12.Necromencer\02.NecromencerElectric</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BlackHole.h">
+      <Filter>02.GameObject\05.Effect\03.NecromencerSpell\02.BalckHole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Chimera.h">
+      <Filter>02.GameObject\06.Monster\13.Chimera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TombStone.h">
+      <Filter>02.GameObject\06.Monster\14.TombStone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TrumpCardSpade.h">
+      <Filter>02.GameObject\05.Effect\04.TrumpCard\02. Spade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Blind.h">
+      <Filter>02.GameObject\05.Effect\05. Blind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TrumpCardHeart.h">
+      <Filter>02.GameObject\05.Effect\04.TrumpCard\03. Heart</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TombStone.h">
+      <Filter>02.GameObject\06.Monster\14.TombStone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Chimera.h">
+      <Filter>02.GameObject\06.Monster\13.Chimera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TombStone.h">
+      <Filter>02.GameObject\06.Monster\14.TombStone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TagGauge.h">
+      <Filter>02.GameObject\05.Effect\05.TagGuage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\NonControl.h">
+      <Filter>02.GameObject\05.Effect\06.NonControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TagGaugeObserver.h">
+      <Filter>02.GameObject\05.Effect\05.TagGuage\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\NonControlObserver.h">
+      <Filter>02.GameObject\05.Effect\06.NonControl\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BrokenBlock.h">
+      <Filter>02.GameObject\07.Cube\01. TileCube\05. BrokenBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SoundMgr.h">
+      <Filter>05. FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TombStoneManager.h">
+      <Filter>02.GameObject\06.Monster\14.TombStone\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\LevelNecromencer.h">
+      <Filter>01.Level\06.BossNecromencer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Portal.h">
+      <Filter>02.GameObject\14. Portal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\CollisionRect.h">
+      <Filter>02.GameObject\12.RectObject\00.CollisionRect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Dagger.h">
+      <Filter>02.GameObject\12.RectObject\00.CollisionRect\00.Dagger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\PoisonCube.h">
+      <Filter>02.GameObject\07.Cube\03.PoisonCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\PoisonCubeParticle.h">
+      <Filter>02.GameObject\07.Cube\03.PoisonCube\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BossSkeletonStageCircle.h">
+      <Filter>02.GameObject\05.Effect\07.BossSkeletonStageCircle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BossSkeletonStageCircleAttack.h">
+      <Filter>02.GameObject\05.Effect\07.BossSkeletonStageCircle\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TrumpCardHeart.h">
+      <Filter>02.GameObject\05.Effect\04.TrumpCard\03. Heart</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TrumpCardSpade.h">
+      <Filter>02.GameObject\05.Effect\04.TrumpCard\02. Spade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Blind.h">
+      <Filter>02.GameObject\05.Effect\05. Blind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\PoisonCubeAttack.h">
+      <Filter>02.GameObject\07.Cube\03.PoisonCube\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ResurrectionManager.h">
+      <Filter>02.GameObject\06.Monster\12.Necromencer\Manager\ResurrectionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MonsterColliderManager.h">
+      <Filter>02.GameObject\06.Monster\12.Necromencer\Manager\MonsterColliderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\LockOn.h">
+      <Filter>02.GameObject\15. LockOn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Meteor.h">
+      <Filter>02.GameObject\07.Cube\02. Meteor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\PoisonCubeHit.h">
+      <Filter>02.GameObject\07.Cube\03.PoisonCube\Hit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Blink.h">
+      <Filter>02.GameObject\05.Effect\03.NecromencerSpell\03.Blink</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TrumpCardDiamond.h">
+      <Filter>02.GameObject\05.Effect\04.TrumpCard\04.Diamond</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TelekinesisManager.h">
+      <Filter>06. TelekinesisManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DarkOrb.h">
+      <Filter>02.GameObject\06.Monster\13.Chimera\00.DarkOrb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\PlayerShield.h">
+      <Filter>02.GameObject\07.Cube\04.PlayerShield</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Item.h">
+      <Filter>02.GameObject\16.Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\OrthoObj.h">
+      <Filter>02.GameObject\17.OrthoObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BloodScreen.h">
+      <Filter>02.GameObject\17.OrthoObj\00.BloodScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MagicMissileParticle.h">
+      <Filter>02.GameObject\07.Cube\00.CollisionCube\00. MagicMissile\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\RunWet.h">
+      <Filter>02.GameObject\07.Cube\01. TileCube\06.BossSkeletonStageCUbe\RunWet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\RunWetParticle.h">
+      <Filter>02.GameObject\07.Cube\01. TileCube\06.BossSkeletonStageCUbe\RunWet\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TempleCube.h">
+      <Filter>02.GameObject\07.Cube\01. TileCube\07. TempleCube\00. UnDestroyable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TempleCubeDestroyable.h">
+      <Filter>02.GameObject\07.Cube\01. TileCube\07. TempleCube\01. Destroyable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\FireCracker.h">
+      <Filter>02.GameObject\06.Monster\03.BossClown\00. FireCracker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Confetti.h">
+      <Filter>02.GameObject\06.Monster\03.BossClown\01. Confetti</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DialogMgr.h">
+      <Filter>02.GameObject\18.Dialog\Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Dialog.h">
+      <Filter>02.GameObject\18.Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TriggerCollider.h">
+      <Filter>02.GameObject\19.TriggerCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\WaterCannon.h">
+      <Filter>02.GameObject\20.WaterCannon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BlackScreen.h">
+      <Filter>02.GameObject\05.Effect\08.BlackScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TutorialMgr.h">
+      <Filter>07.TutorialMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\CardBoard.h">
+      <Filter>02.GameObject\06.Monster\03.BossClown\02. CardBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\CardSelect.h">
+      <Filter>02.GameObject\06.Monster\03.BossClown\03. CardSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\CrossBlock.h">
+      <Filter>02.GameObject\06.Monster\14.TombStone\CrossBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Arrow.h">
+      <Filter>02.GameObject\06.Monster\11.RangeSkull\Arrow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BaseBlock.h">
+      <Filter>02.GameObject\06.Monster\14.TombStone\BaseBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TipMgr.h">
+      <Filter>08.TipMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TipObject.h">
+      <Filter>02.GameObject\21.TipObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TipText.h">
+      <Filter>02.GameObject\21.TipObject\00.Text</Filter>
+    </ClInclude>	  
+    <ClInclude Include="..\public\CardLost.h">
+      <Filter>02.GameObject\06.Monster\03.BossClown\04. CardLost</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TombStoneParticles.h">
+      <Filter>02.GameObject\06.Monster\14.TombStone\Particle</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>98.Defaults</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>98.Defaults</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MainApp.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_Logo.cpp">
+      <Filter>01.Level\00.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_Loading.cpp">
+      <Filter>01.Level\01.Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_GamePlay.cpp">
+      <Filter>01.Level\02.GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BackGround.cpp">
+      <Filter>02.GameObject\00.BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Loader.cpp">
+      <Filter>01.Level\01.Loading\00.Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Terrain.cpp">
+      <Filter>02.GameObject\01.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\CameraFree.cpp">
+      <Filter>02.GameObject\02.Camera\02.CameraFree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player.cpp">
+      <Filter>02.GameObject\03.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SkyBox.cpp">
+      <Filter>02.GameObject\04.SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Explosion.cpp">
+      <Filter>02.GameObject\05.Effect\00.Explosion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\CameraTargetBack.cpp">
+      <Filter>02.GameObject\02.Camera\00.CameraTargetBack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Monster.cpp">
+      <Filter>02.GameObject\06.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MonsterNormalMelee.cpp">
+      <Filter>02.GameObject\06.Monster\00.NormalMelee</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\HpBar.cpp">
+      <Filter>02.GameObject\99.Observers\00.HpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\LoadingDatFile.cpp">
+      <Filter>03.LoadingDatFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_Test.cpp">
+      <Filter>01.Level\03.Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\CubeObject.cpp">
+      <Filter>02.GameObject\07.Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MonsterNormalRange.cpp">
+      <Filter>02.GameObject\06.Monster\01.NormalRange</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MagicMissile.cpp">
+      <Filter>02.GameObject\07.Cube\00.CollisionCube\00. MagicMissile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DestroyableCube.cpp">
+      <Filter>02.GameObject\07.Cube\00.CollisionCube\01. DestoryableCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\WallLook.cpp">
+      <Filter>02.GameObject\08.Wall\01. Look</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DmgFont.cpp">
+      <Filter>02.GameObject\05.Effect\02.DmgFont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BossSkeleton.cpp">
+      <Filter>02.GameObject\06.Monster\02.BossSkeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BossSkeletonMagicCircle.cpp">
+      <Filter>02.GameObject\05.Effect\01.BossSkeletonMagicCircle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BossSkeletonMagicCircleIn.cpp">
+      <Filter>02.GameObject\05.Effect\01.BossSkeletonMagicCircle\00.In</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MpBar.cpp">
+      <Filter>02.GameObject\99.Observers\01.MpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\PlayerInfo.cpp">
+      <Filter>02.GameObject\99.Observers\02.PlayerInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SkillIcon.cpp">
+      <Filter>02.GameObject\99.Observers\03.SkillIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\WallBase.cpp">
+      <Filter>02.GameObject\08.Wall\00. WallBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Camera2D.cpp">
+      <Filter>02.GameObject\02.Camera\03. Camera2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\WallSide.cpp">
+      <Filter>02.GameObject\08.Wall\02. Side</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BossClown.cpp">
+      <Filter>02.GameObject\06.Monster\03.BossClown</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Attack.cpp">
+      <Filter>02.GameObject\09.Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\CollisionCubeObject.cpp">
+      <Filter>02.GameObject\07.Cube\00.CollisionCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MeleeSkull.cpp">
+      <Filter>02.GameObject\06.Monster\10.MeleeSkull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Environment.cpp">
+      <Filter>02.GameObject\10.Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Rain.cpp">
+      <Filter>02.GameObject\10.Environment\00.Rain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\RainDrop.cpp">
+      <Filter>02.GameObject\10.Environment\00.Rain\00.RainDrop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\EnvironmentMgr.cpp">
+      <Filter>02.GameObject\10.Environment\Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\RangeSkull.cpp">
+      <Filter>02.GameObject\06.Monster\11.RangeSkull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TileCube.cpp">
+      <Filter>02.GameObject\07.Cube\01. TileCube\00. Abstract</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ClayCube.cpp">
+      <Filter>02.GameObject\07.Cube\01. TileCube\01. ClayCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Crosshair.cpp">
+      <Filter>02.GameObject\11.Crosshair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\CrosshairMgr.cpp">
+      <Filter>02.GameObject\11.Crosshair\Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BossSkeletonStageCube.cpp">
+      <Filter>02.GameObject\07.Cube\01. TileCube\06.BossSkeletonStageCUbe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BossSkeletonStageCubeObserver.cpp">
+      <Filter>02.GameObject\07.Cube\01. TileCube\06.BossSkeletonStageCUbe\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\PlayerTagMgr.cpp">
+      <Filter>04.PlayerTagMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Necromencer.cpp">
+      <Filter>02.GameObject\06.Monster\12.Necromencer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TrumpCard.cpp">
+      <Filter>02.GameObject\05.Effect\04.TrumpCard\00. Deck</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TrumpCardClover.cpp">
+      <Filter>02.GameObject\05.Effect\04.TrumpCard\01. Clover</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\RedBlock.cpp">
+      <Filter>02.GameObject\07.Cube\01. TileCube\02. RedBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_BossSkeleton.cpp">
+      <Filter>01.Level\04.BossSkeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BossSkeletonStageCubeAttack.cpp">
+      <Filter>02.GameObject\07.Cube\01. TileCube\06.BossSkeletonStageCUbe\00.BossSkeletonStageCubeAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\RectObject.cpp">
+      <Filter>02.GameObject\12.RectObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ThornObject.cpp">
+      <Filter>02.GameObject\13.Thorn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BossSkeletonThorn.cpp">
+      <Filter>02.GameObject\13.Thorn\00.BossSkeletonThorn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Shield.cpp">
+      <Filter>02.GameObject\05.Effect\03.NecromencerSpell\00.Shield</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Resurrection.cpp">
+      <Filter>02.GameObject\05.Effect\03.NecromencerSpell\01.Resurrection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ShieldCube.cpp">
+      <Filter>02.GameObject\07.Cube\01. TileCube\02.ShieldCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\NecromencerFire.cpp">
+      <Filter>02.GameObject\06.Monster\12.Necromencer\00.NecromencerFire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BlueBlock.cpp">
+      <Filter>02.GameObject\07.Cube\01. TileCube\03. BlueBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\GrayBlock.cpp">
+      <Filter>02.GameObject\07.Cube\01. TileCube\04. GrayBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Shield.cpp" />
+    <ClCompile Include="..\private\NecromencerIce.cpp">
+      <Filter>02.GameObject\06.Monster\12.Necromencer\01.NecromencerIce</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\IceOrb.cpp">
+      <Filter>02.GameObject\06.Monster\12.Necromencer\01.NecromencerIce\00.IceOrb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\LevelCircus.cpp">
+      <Filter>01.Level\05.Circus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Cloud.cpp">
+      <Filter>02.GameObject\06.Monster\12.Necromencer\02.NecromencerElectric\00.Cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Shield.cpp">
+      <Filter>02.GameObject\05.Effect\03.NecromencerSpell\00.Shield</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\NecromencerElectric.cpp">
+      <Filter>02.GameObject\06.Monster\12.Necromencer\02.NecromencerElectric</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BlackHole.cpp">
+      <Filter>02.GameObject\05.Effect\03.NecromencerSpell\02.BalckHole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Chimera.cpp">
+      <Filter>02.GameObject\06.Monster\13.Chimera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TombStone.cpp">
+      <Filter>02.GameObject\06.Monster\14.TombStone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TrumpCardSpade.cpp">
+      <Filter>02.GameObject\05.Effect\04.TrumpCard\02. Spade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Blind.cpp">
+      <Filter>02.GameObject\05.Effect\05. Blind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TrumpCardHeart.cpp">
+      <Filter>02.GameObject\05.Effect\04.TrumpCard\03. Heart</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TombStone.cpp">
+      <Filter>02.GameObject\06.Monster\14.TombStone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Chimera.cpp">
+      <Filter>02.GameObject\06.Monster\13.Chimera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TombStone.cpp">
+      <Filter>02.GameObject\06.Monster\14.TombStone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TagGauge.cpp">
+      <Filter>02.GameObject\05.Effect\05.TagGuage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\NonControl.cpp">
+      <Filter>02.GameObject\05.Effect\06.NonControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TagGaugeObserver.cpp">
+      <Filter>02.GameObject\05.Effect\05.TagGuage\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\NonControlObserver.cpp">
+      <Filter>02.GameObject\05.Effect\06.NonControl\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BrokenBlock.cpp">
+      <Filter>02.GameObject\07.Cube\01. TileCube\05. BrokenBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SoundMgr.cpp">
+      <Filter>05. FMOD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TombStoneManager.cpp">
+      <Filter>02.GameObject\06.Monster\14.TombStone\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\LevelNecromencer.cpp">
+      <Filter>01.Level\06.BossNecromencer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Portal.cpp">
+      <Filter>02.GameObject\14. Portal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\CollisionRect.cpp">
+      <Filter>02.GameObject\12.RectObject\00.CollisionRect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Dagger.cpp">
+      <Filter>02.GameObject\12.RectObject\00.CollisionRect\00.Dagger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\PoisonCube.cpp">
+      <Filter>02.GameObject\07.Cube\03.PoisonCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\PoisonCubeParticle.cpp">
+      <Filter>02.GameObject\07.Cube\03.PoisonCube\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BossSkeletonStageCircle.cpp">
+      <Filter>02.GameObject\05.Effect\07.BossSkeletonStageCircle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BossSkeletonStageCircleAttack.cpp">
+      <Filter>02.GameObject\05.Effect\07.BossSkeletonStageCircle\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TrumpCardHeart.cpp">
+      <Filter>02.GameObject\05.Effect\04.TrumpCard\03. Heart</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TrumpCardSpade.cpp">
+      <Filter>02.GameObject\05.Effect\04.TrumpCard\02. Spade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Blind.cpp">
+      <Filter>02.GameObject\05.Effect\05. Blind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\PoisonCubeAttack.cpp">
+      <Filter>02.GameObject\07.Cube\03.PoisonCube\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ResurrectionManager.cpp">
+      <Filter>02.GameObject\06.Monster\12.Necromencer\Manager\ResurrectionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MonsterColliderManager.cpp">
+      <Filter>02.GameObject\06.Monster\12.Necromencer\Manager\MonsterColliderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\LockOn.cpp">
+      <Filter>02.GameObject\15. LockOn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Meteor.cpp">
+      <Filter>02.GameObject\07.Cube\02. Meteor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BossSkeletonStageCircleAttack.cpp">
+      <Filter>02.GameObject\05.Effect\07.BossSkeletonStageCircle\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\PoisonCubeHit.cpp">
+      <Filter>02.GameObject\07.Cube\03.PoisonCube\Hit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Blink.cpp">
+      <Filter>02.GameObject\05.Effect\03.NecromencerSpell\03.Blink</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TrumpCardDiamond.cpp">
+      <Filter>02.GameObject\05.Effect\04.TrumpCard\04.Diamond</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TelekinesisManager.cpp">
+      <Filter>06. TelekinesisManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DarkOrb.cpp">
+      <Filter>02.GameObject\06.Monster\13.Chimera\00.DarkOrb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\PlayerShield.cpp">
+      <Filter>02.GameObject\07.Cube\04.PlayerShield</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Item.cpp">
+      <Filter>02.GameObject\16.Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\OrthoObj.cpp">
+      <Filter>02.GameObject\17.OrthoObj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BloodScreen.cpp">
+      <Filter>02.GameObject\17.OrthoObj\00.BloodScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MagicMissileParticle.cpp">
+      <Filter>02.GameObject\07.Cube\00.CollisionCube\00. MagicMissile\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\RunWet.cpp">
+      <Filter>02.GameObject\07.Cube\01. TileCube\06.BossSkeletonStageCUbe\RunWet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\RunWetParticle.cpp">
+      <Filter>02.GameObject\07.Cube\01. TileCube\06.BossSkeletonStageCUbe\RunWet\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TempleCube.cpp">
+      <Filter>02.GameObject\07.Cube\01. TileCube\07. TempleCube\00. UnDestroyable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TempleCubeDestroyable.cpp">
+      <Filter>02.GameObject\07.Cube\01. TileCube\07. TempleCube\01. Destroyable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\FireCracker.cpp">
+      <Filter>02.GameObject\06.Monster\03.BossClown\00. FireCracker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Confetti.cpp">
+      <Filter>02.GameObject\06.Monster\03.BossClown\01. Confetti</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DialogMgr.cpp">
+      <Filter>02.GameObject\18.Dialog\Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Dialog.cpp">
+      <Filter>02.GameObject\18.Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TriggerCollider.cpp">
+      <Filter>02.GameObject\19.TriggerCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\WaterCannon.cpp">
+      <Filter>02.GameObject\20.WaterCannon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BlackScreen.cpp">
+      <Filter>02.GameObject\05.Effect\08.BlackScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TutorialMgr.cpp">
+      <Filter>07.TutorialMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\CardSelect.cpp">
+      <Filter>02.GameObject\06.Monster\03.BossClown\03. CardSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\CardBoard.cpp">
+      <Filter>02.GameObject\06.Monster\03.BossClown\02. CardBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\CrossBlock.cpp">
+      <Filter>02.GameObject\06.Monster\14.TombStone\CrossBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Arrow.cpp">
+      <Filter>02.GameObject\06.Monster\11.RangeSkull\Arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BaseBlock.cpp">
+      <Filter>02.GameObject\06.Monster\14.TombStone\BaseBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TipMgr.cpp">
+      <Filter>08.TipMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TipObject.cpp">
+      <Filter>02.GameObject\21.TipObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TipText.cpp">
+      <Filter>02.GameObject\21.TipObject\00.Text</Filter>
+    </ClCompile>	  
+    <ClCompile Include="..\private\CardLost.cpp">
+      <Filter>02.GameObject\06.Monster\03.BossClown\04. CardLost</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TombStoneParticles.cpp">
+      <Filter>02.GameObject\06.Monster\14.TombStone\Particle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>98.Defaults</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>98.Defaults</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>98.Defaults</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
